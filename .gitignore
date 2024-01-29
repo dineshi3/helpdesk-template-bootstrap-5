@@ -1,0 +1,9 @@
+node_modules
+
+/.cache
+/build
+/app/build
+
+.env
+package-lock.json
+yarn.lock

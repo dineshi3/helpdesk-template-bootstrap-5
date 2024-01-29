@@ -1,0 +1,60 @@
+$primary: #FF3A3A;
+$btn-color: #fff;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.btn-primary {
+    color: $btn-color;
+}
+
+.btn-primary:hover {
+    color: $btn-color;
+}
+
+#pills-tab .nav-item button {
+    padding: .75rem 0;
+    border-radius: 0;
+    text-decoration: none;
+    color: $secondary;
+}
+
+#pills-tab .nav-item button.active,
+#pills-tab .nav-item button:hover {
+    border-bottom: 3px solid $primary;
+    color: $black;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.feature-items .list {
+    background: rgba(0,0,0,.2);
+    width: 48%;
+    transition: all .3s ease;
+}
+
+.apps-list li {
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    background: #fff;
+    margin-right: 50px;
+    box-shadow: 0 10px 60px 0 #e6e6e6;
+    transition: all .5s ease;
+    margin-bottom: 30px;
+
+}
+
+.apps-list ul li:hover {
+    box-shadow: 0 0 10px 0 #e6e6e6;
+    transform: translate(5px,-5px);
+}
+
+.apps-list li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
