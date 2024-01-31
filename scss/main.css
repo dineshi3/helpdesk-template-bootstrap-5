@@ -12001,10 +12001,20 @@ p {
   margin-bottom: 0;
 }
 
+.feature-items {
+  transition: all 0.3s ease;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .feature-items {
+    grid-template-columns: 1fr;
+  }
+}
+
 .feature-items .list {
   background: rgba(0, 0, 0, 0.2);
-  width: 48%;
-  transition: all 0.3s ease;
 }
 
 .apps-list li {
@@ -12012,10 +12022,8 @@ p {
   height: 160px;
   border-radius: 90px;
   background: #fff;
-  margin-right: 50px;
   box-shadow: 0 10px 60px 0 #e6e6e6;
   transition: all 0.5s ease;
-  margin-bottom: 30px;
 }
 
 .apps-list ul li:hover {
