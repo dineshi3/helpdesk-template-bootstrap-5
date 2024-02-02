@@ -12037,4 +12037,17 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header .links li .dropdown-container {
+  top: 3.25rem;
+}
+
+.feature-box .box-text .text-para {
+  font-size: 13px;
+}
+
+.feature-card-container.dual-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }/*# sourceMappingURL=main.css.map */
