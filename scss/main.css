@@ -12045,6 +12045,7 @@ p {
 
 .feature-box .box-text .text-para {
   font-size: 13px;
+  min-height: 40px;
 }
 
 .feature-card-container.dual-column {
