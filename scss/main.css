@@ -12040,7 +12040,7 @@ p {
 }
 
 .header .links li .dropdown-container {
-  top: 3.25rem;
+  top: 3.35rem;
 }
 
 .feature-box .box-text .text-para {
@@ -12051,4 +12051,8 @@ p {
 .feature-card-container.dual-column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-section li a {
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
