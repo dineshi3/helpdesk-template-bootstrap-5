@@ -68,9 +68,18 @@ p {
     top: 3.35rem;
 }
 
+.feature-box {
+    border-radius: .5rem;
+    transition: opacity .25s;
+}
+
 .feature-box .box-text .text-para {
     font-size: 13px;
     min-height: 40px;
+}
+
+.feature-box:hover {
+    background-color: #e5e5e5;
 }
 
 .feature-card-container.dual-column {
@@ -106,3 +115,37 @@ p {
 .fs-12 {
     font-size: 12px;
 }
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-8 {
+    font-size: 8px;
+}
+
+// PLANS & PRICING
+
+.nav-pricing {
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.pricing-card .lists {
+    list-style: circle;
+}
+
+.pricing-card .lists li {
+    margin-bottom: .75rem;
+}
+
+// NAV HEADER
+
+.nav-pricing .nav-item .btn.active,
+.nav-pricing .nav-item .btn:hover {
+    background: #fff;
+    font-weight: 500;
+    border: 1px solid #c8c7c7;
+}
+
