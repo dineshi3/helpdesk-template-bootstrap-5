@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helpdesk Price</title>
 
-    <link rel="stylesheet" href="/scss/main.css">
+    <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
     <section>
@@ -371,58 +371,92 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container pb-5">
         <div class="row">
             <h3>Frequently Asked Questions</h3>
         </div>
         <div class="accordion accordion-flush" id="AccordionFlushFrequentlyAsked">
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Who are help desk agents?
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    What are Categories?
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    How can I change my plan?
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-              </div>
-              Do you offer a trial?
-              Do you offer discounts for non-profits or educational institutes?
-              What are the available billing cycles?
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Who are help desk agents?</button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body">Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.</div>
+                </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FlushCollapseFour" aria-expanded="false" aria-controls="FlushCollapseFour">
-                      What are Categories?
-                  </button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">What are Categories?</button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body">
+                        Categories allow you to separate incoming requests into
+                        dedicated ticket types that can be distributed to a specific
+                        team, have unique SLA requirements, and produce insightful
+                        metrics.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">How can I change my plan?</button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body"><p style="display: block;">
+                        You can upgrade your plan at any point in time. However, if you want to downgrade, 
+                        you can do it at the end of the current support . You may also write to  
+                        <a href="mailto:support@fox.com">support@fox.com</a> or contact your Account Executive. 
+                      </p></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FlushCollapseFour" aria-expanded="false" aria-controls="FlushCollapseFour">Do you offer a trial?</button>
                 </h2>
                 <div id="FlushCollapseFour" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                 </div>
             </div>
 
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FlushCollapseFive" aria-expanded="false" aria-controls="FlushCollapseFive">Do you offer a trial?</button>
+                </h2>
+                <div id="FlushCollapseFive" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body">
+                            Yes. We encourage you to
+                            <a href="/help-desk-software-demo/">request a demo</a>
+                            to determine if HappyFox Help Desk is the right fit for your
+                            organization. Once we identify your needs, we'd be happy to
+                            provide access to a trial account where you can configure your
+                            proof of concept.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FlushCollapseSix" aria-expanded="false" aria-controls="FlushCollapseSix">Do you offer discounts for non-profits or educational institutes?</button>
+                </h2>
+                <div id="FlushCollapseSix" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body">
+                        We offer a 10% discount on annual subscriptions on any plan.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FlushCollapseSeven" aria-expanded="false" aria-controls="FlushCollapseSeven">What are the available billing cycles?</button>
+                </h2>
+                <div id="FlushCollapseSeven" class="accordion-collapse collapse" data-bs-parent="#AccordionFlushFrequentlyAsked">
+                    <div class="accordion-body">
+                        We offer a monthly, annual, 2-year savings plan (paid upfront), and 3-year contract for agent-based pricing.
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="/scripts/popper.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
 </body></html>
