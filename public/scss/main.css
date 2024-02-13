@@ -12109,4 +12109,10 @@ p {
   background: #fff;
   font-weight: 500;
   border: 1px solid #c8c7c7;
+}
+
+@media (max-width: 768px) {
+  .pricing-cards .pricing-card {
+    border: 1px solid var(--bs-border-color);
+  }
 }/*# sourceMappingURL=main.css.map */

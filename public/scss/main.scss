@@ -1,7 +1,7 @@
 $primary: #FF3A3A;
 $btn-color: #fff;
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 .btn-primary {
     color: $btn-color;
@@ -149,3 +149,8 @@ p {
     border: 1px solid #c8c7c7;
 }
 
+@media (max-width: 768px) {
+    .pricing-cards .pricing-card {
+        border: 1px solid var(--bs-border-color);
+    }
+}
