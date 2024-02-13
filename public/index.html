@@ -681,7 +681,7 @@
                                     <img src="/assets/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10" />
                                 </span>
                             </a>
-                            <div class="dropdown-container position-absolute top-10 bg-body-tertiary z-3 w-100 start-0 collapse" data-title="2" id="helpdeskSolutions" style="">
+                            <div class="dropdown-container position-absolute top-10 bg-body-tertiary z-3 w-100 start-0 collapse" data-title="2" id="helpdeskSolutions" >
                                 <div class="container py-4">
                                     <div class="row">
                                         <div class="col-9">
@@ -1570,23 +1570,7 @@
                 </div>
             </div>
         </footer>
-        <script>
-            document.querySelectorAll(".product_navmenu_list_item").forEach((item) => {
-                item.querySelector("a").addEventListener("click", (e) => {
-                    document.querySelectorAll(".product_navmenu_list_item").forEach((menu) => {
-                        if (menu.querySelector("a") != e.target) {
-                            const dropdown = menu.querySelector(".dropdown-container");
-                            if (dropdown) {
-                                setTimeout(() => {
-                                    dropdown.classList.add("collapse");
-                                }, 1000);
-                                dropdown.classList.remove("show");
-                            }
-                        }
-                    });
-                });
-            });
-        </script>
+        <script src="/scripts/common.js"></script>
         <script src="/scripts/popper.min.js"></script>
         <script src="/scripts/bootstrap.min.js"></script>
         <script type="module">
